@@ -1,14 +1,11 @@
 # Ignore everything
 *
-
 # Allow directories
 !*/
-
 # Allow specific file types
 !*.tex
 !*.png
 !.gitignore
-
 # Ignore LaTeX build files
 *.aux
 *.log
@@ -18,3 +15,5 @@
 *.fdb_latexmk
 *.fls
 *.pdf
+# Ignore test_compile folder
+test_compile/
